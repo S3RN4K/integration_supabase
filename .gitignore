@@ -1,2 +1,10 @@
 .venv
 .env
+*.pyc
+/venv
+*.sample
+.env.sample
+.env.sample
+.env.sample
+*.xlsx
+nacional_fixed.csv
