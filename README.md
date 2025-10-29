@@ -19,6 +19,10 @@ pip install -r requirements.txt
 
 ## Uso
 
+### Para la corrección del xlsx de Carga Nacional:
+Ejecutar fix_chasis_csv.py con el xlsx de Carga Nacional en la misma carpeta. Esto generará el CSV sin conflictos de notación científica.
+Posteriormente ejecutar cargar_nacional_chunks.py para la subida a supabase.
+
 ### Para Supabase (`app.py`)
 
 Variables requeridas: `SUPABASE_URL`, `SUPABASE_KEY`
